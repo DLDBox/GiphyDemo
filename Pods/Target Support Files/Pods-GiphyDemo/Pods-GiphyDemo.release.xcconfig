@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/NSOperationQueue+CompletionBlock" "${PODS_ROOT}/Headers/Public/UIGifImage" "${PODS_ROOT}/Headers/Public/UIImage+animatedGif" "${PODS_ROOT}/Headers/Public/XLForm"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/JSONModel" -isystem "${PODS_ROOT}/Headers/Public/NSOperationQueue+CompletionBlock" -isystem "${PODS_ROOT}/Headers/Public/UIGifImage" -isystem "${PODS_ROOT}/Headers/Public/UIImage+animatedGif" -isystem "${PODS_ROOT}/Headers/Public/XLForm"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"JSONModel" -l"NSOperationQueue+CompletionBlock" -l"UIGifImage" -l"UIImage+animatedGif" -l"XLForm" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods
